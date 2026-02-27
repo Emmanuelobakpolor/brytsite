@@ -601,7 +601,7 @@ export default function LandingPage() {
                 <img
                   className={styles.teamMemberPhoto}
                   src={ceoImage}
-                  alt="Akinyemi Babatunde Abbah"
+                  alt="Akinyemi Babatunde Abba"
                 />
                 <div className={styles.teamMemberName}>Akinyemi Babatunde Abbah</div>
                 <div className={styles.teamMemberRole}>CEO</div>
