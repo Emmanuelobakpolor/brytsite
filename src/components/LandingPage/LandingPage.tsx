@@ -277,6 +277,14 @@ export default function LandingPage() {
               >
                 Download App
               </a>
+              <a
+                className={styles.mobileNavLink}
+                href="https://forms.gle/MxF9KPtLSQDTwo4h7"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Register as a Worker
+              </a>
             </nav>
           </div>
         )}
