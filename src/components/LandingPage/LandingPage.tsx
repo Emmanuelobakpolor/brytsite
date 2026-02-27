@@ -603,7 +603,7 @@ export default function LandingPage() {
                   src={ceoImage}
                   alt="Akinyemi Babatunde Abba"
                 />
-                <div className={styles.teamMemberName}>Akinyemi Babatunde Abbah</div>
+                <div className={styles.teamMemberName}>Akinyemi Babatunde Abba</div>
                 <div className={styles.teamMemberRole}>CEO</div>
               </article>
 
