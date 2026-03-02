@@ -680,20 +680,19 @@ export default function LandingPage() {
 
               <a
                 className={styles.contactCard}
-                href="mailto:hello@brytgmail.com"
+                href="mailto:Info@openbryt.com"
                 aria-label="Send an email"
               >
                 <EmailIcon className={styles.contactCardIcon} aria-hidden="true" />
                 <div className={styles.contactCardBody}>
                   <div className={styles.contactCardLabel}>Email Us</div>
-                  <div className={styles.contactCardValue}>hello@brytgmail.com</div>
+                  <div className={styles.contactCardValue}>Info@openbryt.com</div>
                 </div>
               </a>
 
               <a
                 className={styles.contactCard}
-                href="https://maps.google.com/?q=Road+13+Lekki+Scheme+2+Ogombo+Road+Abraham+Adesanya+Bus+Stop+Ajah+Lagos"
-                target="_blank"
+                href="https://maps.google.com/?q=Olujimi+Court+9+Silverbird+Road+Jakande+First+Gate+Lekki+Lagos+Nigeria" target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Open in Google Maps"
               >
@@ -701,7 +700,8 @@ export default function LandingPage() {
                 <div className={styles.contactCardBody}>
                   <div className={styles.contactCardLabel}>Address</div>
                   <div className={styles.contactCardValue}>
-                    Road 13 lekki scheme 2 ogombo road, Abraham Adesanya bus stop, Ajah Lagos.
+                    Olujimi court
+                    9 Silverbird Road, Jakande First gate, lekki.
                   </div>
                 </div>
               </a>
