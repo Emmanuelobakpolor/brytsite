@@ -192,9 +192,6 @@ export default function LandingPage() {
             <a className={styles.navLink} href="#about" onClick={(e) => handleNavClick(e, '#about')}>
               About
             </a>
-            <a className={styles.navLink} href="#team" onClick={(e) => handleNavClick(e, '#team')}>
-              Our Team
-            </a>
             <a className={styles.navLink} href="#get-started" onClick={(e) => handleNavClick(e, '#get-started')}>
               Contact
             </a>
@@ -255,13 +252,6 @@ export default function LandingPage() {
                 onClick={(e) => handleNavClick(e, '#about')}
               >
                 About
-              </a>
-              <a
-                className={styles.mobileNavLink}
-                href="#team"
-                onClick={(e) => handleNavClick(e, '#team')}
-              >
-                Our Team
               </a>
               <a
                 className={styles.mobileNavLink}
@@ -419,7 +409,7 @@ export default function LandingPage() {
               <div className={styles.sectionPill}>Simple Process</div>
               <h2 className={styles.centerTitle}>How BRYT Works</h2>
               <p className={styles.centerSummary}>
-                From posting job to completion, we’ve made the entire process seamless and
+                From posting job to completion, we've made the entire process seamless and
                 straightforward
               </p>
             </div>
@@ -589,47 +579,6 @@ export default function LandingPage() {
           </div>
         </section>
 
-        <section className={styles.coreTeamSection} id="team" aria-label="Core team">
-          <div className={styles.sectionInner}>
-            <div className={styles.coreTeamHeader}>
-              <h2 className={styles.coreTeamTitle}>Meet Our Core Team!</h2>
-              <div className={styles.coreTeamSummary}>Here are the innovators shaping our journey.</div>
-            </div>
-
-            <div className={styles.coreTeamGrid}>
-              <article className={styles.teamMemberCard}>
-                <img
-                  className={styles.teamMemberPhoto}
-                  src={ceoImage}
-                  alt="Akinyemi Babatunde Abba"
-                />
-                <div className={styles.teamMemberName}>Akinyemi Babatunde Abba</div>
-                <div className={styles.teamMemberRole}>CEO</div>
-              </article>
-
-              <article className={styles.teamMemberCard}>
-                <img
-                  className={styles.teamMemberPhoto}
-                  src={sdsImage}
-                  alt="Azizi Abidemi Khadijat"
-                />
-                <div className={styles.teamMemberName}>Azizi Abidemi Khadijat</div>
-                <div className={styles.teamMemberRole}>COO</div>
-              </article>
-
-              <article className={styles.teamMemberCard}>
-                <img
-                  className={styles.teamMemberPhoto}
-                  src={daImage}
-                  alt="Akinyemi Daniel Oluwalana"
-                />
-                <div className={styles.teamMemberName}>Akinyemi Daniel Oluwalana</div>
-                <div className={styles.teamMemberRole}>CTO</div>
-              </article>
-            </div>
-          </div>
-        </section>
-
         <section className={styles.joinTeamSection} aria-label="Join the team">
           <div className={styles.sectionInner}>
             <div className={styles.joinTeamCard}>
@@ -794,9 +743,6 @@ export default function LandingPage() {
 
               <div className={styles.footerCol}>
                 <div className={styles.footerColTitle}>Support</div>
-                <a className={styles.footerLink} href="#team">
-                  Our Team
-                </a>
                 <a className={styles.footerLink} href="#get-started">
                   Contact Support
                 </a>
