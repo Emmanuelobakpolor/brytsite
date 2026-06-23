@@ -2,9 +2,7 @@ import { useState, useEffect } from 'react'
 import styles from './LandingPage.module.css'
 import brytLogo from '../../assets/415f445ba7129ab4e1ff25d33b2781129c8a6904.png'
 import navLogo from '../../assets/35249ccb00c633771376e87b441582f9ba6cde24-removebg-preview.png'
-import ceoImage from '../../assets/ceo.png'
-import sdsImage from '../../assets/sds.png'
-import daImage from '../../assets/da.png'
+
 import {
   ArrowRightIcon,
   BadgeDotIcon,
