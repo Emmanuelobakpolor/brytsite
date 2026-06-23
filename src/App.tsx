@@ -1,9 +1,8 @@
-// TODO: Uncomment when client pays
-// import LandingPage from './components/LandingPage/LandingPage'
+
+import LandingPage from './components/LandingPage/LandingPage'
 
 export default function App() {
-  // TODO: Uncomment when client pays
-  // return <LandingPage />
+  return <LandingPage />
 
   return (
     <div
