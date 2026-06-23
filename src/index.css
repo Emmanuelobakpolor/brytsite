@@ -1,0 +1,74 @@
+:root {
+  --bryt-blue: #2f80ed;
+  --bryt-text: #0f172a;
+
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+    Apple Color Emoji, Segoe UI Emoji;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #fff;
+  color: var(--bryt-text);
+}
+
+a {
+  color: inherit;
+}
+
+section {
+  scroll-margin-top: 76px;
+}
+
+/* ===========================
+   SCROLL-TRIGGERED ANIMATIONS
+   =========================== */
+
+.anim-el,
+.anim-el-left,
+.anim-el-right {
+  opacity: 0;
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+
+.anim-el {
+  transform: translateY(26px);
+}
+
+.anim-el-left {
+  transform: translateX(-28px);
+}
+
+.anim-el-right {
+  transform: translateX(28px);
+}
+
+.anim-el.anim-revealed,
+.anim-el-left.anim-revealed,
+.anim-el-right.anim-revealed {
+  opacity: 1;
+  transform: none;
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .anim-el,
+  .anim-el-left,
+  .anim-el-right {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
